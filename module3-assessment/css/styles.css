@@ -1,1 +1,62 @@
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+  	font-style: normal;
+  	font-size: 16px;
+  	color: #87b6c9;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: #302f2e;
+  border-radius: 0;
+  border: 0;
+  padding-top: 10px;
+}
+.navbar-brand h1 {
+	margin: 0 auto 10px 0;
+	font-weight: 600;
+	font-size: 28px;
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	color: #87b6c9;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#collapsable-nav {
+	background-color: #302f2e;
+}
+#nav-list a {
+	color: #302f2e;
+  	text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/** MAIN CONTENT **/
+#main-content {
+	color: #444444;
+}
+#main-content h2 {
+	font-size: 24px;
+	padding: 20px 0 40px 0;
+}
+#main-content h3 {
+	font-size: 18px;
+	padding: 10px;
+}
+#text-section {
+	background-color: #f2f1f0;
+	margin-bottom: 50px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  /* Home Page */
+  	#collapsable-nav {
+		background-color: #cad6db;
+	}
+}
